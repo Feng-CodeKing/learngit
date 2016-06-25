@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--
+        	作者：1105738492@qq.com
+        	时间：2016-06-24
+        	描述：class标签
+        -->
+        <!--用CSS样式，以一个或多个类作为应用目标-->
+		<style>
+			.color{
+				background-color:#DEB887;
+			}
+			
+			.a{
+				color:#fff;
+			}
+			
+			.p{
+				font-size: 20px;
+				font-weight: bold;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<p class="p color">我是段落</p>
+		<a class="a color" href="">我是空链接</a>
+		<!--用javascript，设置一个或多个类-->
+		<script type="text/javascript">
+			var x = document.getElementsByClassName("a");
+			e.style.border = "thin solid black";
+			x.style.bgColor = "black";
+		</script>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			var toggleHidden = function(){
+				var e = document.getElementById("p");
+				if(e.hasAttribute("p")){
+					e.removeAttribute("p");
+				}else{
+					e.setAttribute("p","p");
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<button onclick="toggleHidden()">Toggle</button>
+		<p id="p" hidden></p>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+/*
+ * 用@import语句，将other_css.css从导入到当前样式表
+ *	（一个样式表中想要导入多少别的样式表都行，为每个样式表使用@import语句即可）
+ * 
+ * */
+@import "other_css.css";
+
+/*css基本框架
+* 1、css样式	：
+*	property：value;	
+*/
+a{
+	text-decoration: none;
+}
+
